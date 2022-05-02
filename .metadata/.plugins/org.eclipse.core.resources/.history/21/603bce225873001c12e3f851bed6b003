@@ -1,0 +1,13 @@
+
+public class EX04_비교연산 {
+
+	public static void main(String[] args) {
+		boolean isTrue = (3 < 5);
+		System.out.println(isTrue);
+		
+		boolean isTrue2 = (5 != 5);
+		System.out.println(isTrue2);
+
+	}
+
+}

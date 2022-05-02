@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class EX07_조건문예제 {
+
+	public static void main(String[] args) {
+		// 1. int 타입 변수 num 선언, 키보드로 값을 입력받고,
+		int num = 0;
+		Scanner scan = new Scanner(System.in);
+		num = scan.nextInt();
+		
+		// 2. 만약에 num이 3의 배수이면서, 5의 배수라면 ->
+//		if(num %) ==
+		
+		// 자 준형씨, 이게 맞나? 싶을 때 가장 빨리 확인 하는 방법은 print 에요.
+		// 초보라서가 아니라 실제 개발자들도 정말 많이 씁니다.
+		// 디버깅이라고도 하고, 여기까지 쓴 코드가 맞나? 하고print를 찍어보는거에요
+		System.out.println(num%5);
+		
+		// 3. "3과 5의 배수입니다" 출력
+
+	}
+
+}
